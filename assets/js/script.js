@@ -287,7 +287,7 @@ if (healStage && phoneSvg && window.matchMedia('(pointer:fine)').matches) {
     btn.addEventListener('click', () => {
         const iframe = document.createElement('iframe');
         iframe.className = 'ya-map';
-        iframe.src = 'https://yandex.ru/map-widget/v1/?ll=93.536069%2C56.243857&z=17&l=map&pt=93.536069,56.243857,pm2rdm';
+        iframe.src = 'https://yandex.ru/map-widget/v1/?ll=93.536275%2C56.245021&z=17&l=map&pt=93.536275%2C56.245021%2Cpm2rdm';
         iframe.frameBorder = '0';
         iframe.allowFullscreen = !0;
         facade.innerHTML = '';
